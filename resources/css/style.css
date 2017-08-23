@@ -1,39 +1,46 @@
 /* Universal Styles */
 
- body {
-
- }
 
 /* Header */
-.header {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  display: inline-flex;
-  border-bottom: 1px solid black;
-  align-items: center;
-}
 
-.title {
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
-  border: 1px solid black;
-  margin-bottom: 10px;
-  width: 1000px;
-  color: MediumAquamarine;
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  display: flex;
+  border-bottom: 1px solid black;
+  height: 80px;
+  align-items: center;
+ }
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 30px;
+  align-items: center;
+  margin: 10px;
+  height: 60px;
+  width: 365px;
 }
-.title img {
-  display: inline-block;
+.logo span {
+color: Mediumaquamarine;
+}
+nav {
+  display: block;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 30px;
+
 }
 
 nav span {
-  display:inline-block;
-  text-align: right
+  display: inline-block;
   justify-content: flex-end;
+  align-items: center;
+  color: black;
+  padding: 20px 10px;
+
 
 }
 
