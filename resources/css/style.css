@@ -11,29 +11,30 @@
   font-weight: bold;
   display: inline-flex;
   border-bottom: 1px solid black;
+  align-items: center;
 }
 
-.header h1 {
+.title {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  width: 1000px;
   color: MediumAquamarine;
+  font-family: Verdana;
   font-size: 14px;
+  font-weight: bold;
+}
+.title img {
+  display: inline-block;
 }
 
-.header li {
-  list-style: none;
-}
-
-#logo {
-display:flex-start;
-}
-
-nav ul {
-text-align: right;
-justify-content: flex-end;
-}
-
-nav li {
+nav span {
   display:inline-block;
+  text-align: right
   justify-content: flex-end;
+
 }
 
 nav a {
