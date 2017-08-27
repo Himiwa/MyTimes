@@ -47,32 +47,109 @@ nav a {
 
 /* Main */
 
-div {
-  border: 1px solid black;
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 .column {
   display: flex;
-  border: 1px solid black;
-  justify-content: center;
 }
 .column.large {
   width: 630px;
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
 
 }
 .column.medium {
   width: 300px;
   display: flex;
   flex-direction: column;
-
+  margin-right: 32px;
 
 }
 .column.small {
   width: 240px;
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
 }
-div .tuna span {
-  background-image: url(../images/main.png)
+
+.column span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+/* change just for the main story font-size */
+.tuna-image-content span {
+  font-size: 40px;
+}
+
+.tuna-image-content {
+  background-image: url(../images/main.png);
+  height: 300px;
+  width: 630px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.earth-image-content {
+  background-image: url(../images/fall.png);
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.memory-image-content {
+  background-image: url(../images/hipster.png);
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.cats-image-content {
+  background-image: url(../images/cat.png);
+  height: 300px;
+  width: 256px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+/* this is to make all container flexible and arrange them*/
+.tuna {
+width: 630px;
+height: 494px;
+}
+
+.stories {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top:17px;
+}
+
+.orca,
+.burger {
+  width: 300px;
+  height: 250px;
+}
+.earth,
+.memory,
+.cats {
+  height: 300px;
+  width: 300px;
+}
+img .cookie {
+  height: 240px;
+  width: 240px;
+}
+.fbi {
+  width: 300px;
+}
+.small {
+  width: 240px;
 }
