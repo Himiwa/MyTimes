@@ -31,7 +31,6 @@ nav {
   font-size: 14px;
   font-weight: bold;
   padding-right: 30px;
-
 }
 
 nav span {
@@ -40,10 +39,40 @@ nav span {
   align-items: center;
   color: black;
   padding: 20px 10px;
-
-
 }
 
 nav a {
   color: black;
+}
+
+/* Main */
+
+div {
+  border: 1px solid black;
+}
+.column {
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+}
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+
+}
+.column.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+div .tuna span {
+  background-image: url(../images/main.png)
 }
